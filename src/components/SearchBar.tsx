@@ -1,5 +1,5 @@
 import { LocateFixed, Search } from "lucide-react";
-import { FormEvent } from "react";
+import type { SubmitEvent } from "react";
 
 interface SearchBarProps {
   value: string;
@@ -16,7 +16,7 @@ function SearchBar({
   onLocationRequest,
   loading,
 }: SearchBarProps) {
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
     onSubmit();
   };
