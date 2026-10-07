@@ -593,6 +593,12 @@ The interface adapts to different screen sizes while maintaining:
 
 ---
 
+## Live link & GitHub Repository
+
+![Live link](https://skycastweatherapp-ochre.vercel.app/)
+
+![GitRepo](https://github.com/abdullahsaeed5626-dot/SkyCast---Weather_Prediction_App)
+
 ## 👨‍💻 Author
 
 **Abdullah Saeed**
